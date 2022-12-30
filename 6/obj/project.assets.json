@@ -1,0 +1,244 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "freeglut/2.8.1.15": {
+        "type": "package",
+        "dependencies": {
+          "freeglut.redist": "2.8.1.15"
+        }
+      },
+      "freeglut.redist/2.8.1.15": {
+        "type": "package"
+      },
+      "OpenTK/3.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "OpenTK.GLControl/3.3.3": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.3.3"
+        },
+        "compile": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "freeglut/2.8.1.15": {
+      "sha512": "H9OGyzje80sTEr5kDyO0DeFpbW5lpkU+YGg4+P4TEbsb/iZoRj3NvWRysUq/H7FvlVgEesYSLWl/UEv2sf/mZw==",
+      "type": "package",
+      "path": "freeglut/2.8.1.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/default-propertiesui.xml",
+        "build/native/freeglut-propertiesui-9d426607-6794-47b3-9280-8af7e899f0c1.xml",
+        "build/native/freeglut.targets",
+        "build/native/include/GL/freeglut.h",
+        "build/native/include/GL/freeglut_ext.h",
+        "build/native/include/GL/freeglut_std.h",
+        "build/native/include/GL/glut.h",
+        "build/native/lib/v100/Win32/Debug/dynamic/freeglut.lib",
+        "build/native/lib/v100/Win32/Debug/ltcg/freeglut.lib",
+        "build/native/lib/v100/Win32/Debug/static/freeglut.lib",
+        "build/native/lib/v100/Win32/Release/dynamic/freeglut.lib",
+        "build/native/lib/v100/Win32/Release/ltcg/freeglut.lib",
+        "build/native/lib/v100/Win32/Release/static/freeglut.lib",
+        "build/native/lib/v100/x64/Debug/dynamic/freeglut.lib",
+        "build/native/lib/v100/x64/Debug/ltcg/freeglut.lib",
+        "build/native/lib/v100/x64/Debug/static/freeglut.lib",
+        "build/native/lib/v100/x64/Release/dynamic/freeglut.lib",
+        "build/native/lib/v100/x64/Release/ltcg/freeglut.lib",
+        "build/native/lib/v100/x64/Release/static/freeglut.lib",
+        "build/native/lib/v110/Win32/Debug/dynamic/freeglut.lib",
+        "build/native/lib/v110/Win32/Debug/ltcg/freeglut.lib",
+        "build/native/lib/v110/Win32/Debug/static/freeglut.lib",
+        "build/native/lib/v110/Win32/Release/dynamic/freeglut.lib",
+        "build/native/lib/v110/Win32/Release/ltcg/freeglut.lib",
+        "build/native/lib/v110/Win32/Release/static/freeglut.lib",
+        "build/native/lib/v110/x64/Debug/dynamic/freeglut.lib",
+        "build/native/lib/v110/x64/Debug/ltcg/freeglut.lib",
+        "build/native/lib/v110/x64/Debug/static/freeglut.lib",
+        "build/native/lib/v110/x64/Release/dynamic/freeglut.lib",
+        "build/native/lib/v110/x64/Release/ltcg/freeglut.lib",
+        "build/native/lib/v110/x64/Release/static/freeglut.lib",
+        "build/publisher-info.txt",
+        "freeglut.2.8.1.15.nupkg.sha512",
+        "freeglut.nuspec"
+      ]
+    },
+    "freeglut.redist/2.8.1.15": {
+      "sha512": "de2n550ASC2mNAeEgDajQy31bB8lxrOIpGvgZIAf63Xnxz96j2XaICE1amgZj+VAb/oxWZNXqg0pHYgUJfeTwg==",
+      "type": "package",
+      "path": "freeglut.redist/2.8.1.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/bin/v100/Win32/Debug/dynamic/freeglut.dll",
+        "build/native/bin/v100/Win32/Release/dynamic/freeglut.dll",
+        "build/native/bin/v100/x64/Debug/dynamic/freeglut.dll",
+        "build/native/bin/v100/x64/Release/dynamic/freeglut.dll",
+        "build/native/bin/v110/Win32/Debug/dynamic/freeglut.dll",
+        "build/native/bin/v110/Win32/Release/dynamic/freeglut.dll",
+        "build/native/bin/v110/x64/Debug/dynamic/freeglut.dll",
+        "build/native/bin/v110/x64/Release/dynamic/freeglut.dll",
+        "build/native/default-propertiesui.xml",
+        "build/native/freeglut.redist.targets",
+        "build/publisher-info.txt",
+        "freeglut.redist.2.8.1.15.nupkg.sha512",
+        "freeglut.redist.nuspec"
+      ]
+    },
+    "OpenTK/3.3.3": {
+      "sha512": "KtnygHEuYj4+agNsZRtzh5iSiKlelDZvDB/OhfebEvIDX/97Pzygv8n5llZHgrI7Xa29vvkucVBeN55R6/k+4w==",
+      "type": "package",
+      "path": "opentk/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/OpenTK.dll.config",
+        "lib/net20/OpenTK.dll",
+        "lib/net20/OpenTK.pdb",
+        "lib/net20/OpenTK.xml",
+        "opentk.3.3.3.nupkg.sha512",
+        "opentk.nuspec"
+      ]
+    },
+    "OpenTK.GLControl/3.3.3": {
+      "sha512": "OJKQN4s7tCzdDUoLmrEEwAzywlhIu/vmLO+qhUG4FAUKwaxNqyGYbdLgzgH4RtNzP6Qs8ZDx0RxNHXyn/DPgUA==",
+      "type": "package",
+      "path": "opentk.glcontrol/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/OpenTK.GLControl.dll",
+        "lib/net20/OpenTK.GLControl.pdb",
+        "lib/net20/OpenTK.GLControl.xml",
+        "opentk.glcontrol.3.3.3.nupkg.sha512",
+        "opentk.glcontrol.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "OpenTK.GLControl >= 3.3.3",
+      "freeglut >= 2.8.1.15"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Денис\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Денис\\source\\repos\\6\\6\\6.csproj",
+      "projectName": "6",
+      "projectPath": "C:\\Users\\Денис\\source\\repos\\6\\6\\6.csproj",
+      "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Денис\\source\\repos\\6\\6\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "OpenTK.GLControl": {
+            "target": "Package",
+            "version": "[3.3.3, )"
+          },
+          "freeglut": {
+            "target": "Package",
+            "version": "[2.8.1.15, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.18, 3.1.18]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenTK 3.3.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenTK.GLControl 3.3.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenTK.GLControl",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

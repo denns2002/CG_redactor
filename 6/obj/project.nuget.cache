@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "dgSpecHash": "YLwXDtl58655eOPAPCSBYd16YzkbCVSi7/qp8NuA9KZWiDrY3miuR3kr7nd+lq6t+N/q8DvBt/Idd+rn4Dqzmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Денис\\source\\repos\\6\\6\\6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Денис\\.nuget\\packages\\freeglut\\2.8.1.15\\freeglut.2.8.1.15.nupkg.sha512",
+    "C:\\Users\\Денис\\.nuget\\packages\\freeglut.redist\\2.8.1.15\\freeglut.redist.2.8.1.15.nupkg.sha512",
+    "C:\\Users\\Денис\\.nuget\\packages\\opentk\\3.3.3\\opentk.3.3.3.nupkg.sha512",
+    "C:\\Users\\Денис\\.nuget\\packages\\opentk.glcontrol\\3.3.3\\opentk.glcontrol.3.3.3.nupkg.sha512",
+    "C:\\Users\\Денис\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenTK 3.3.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenTK.GLControl 3.3.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenTK.GLControl",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
