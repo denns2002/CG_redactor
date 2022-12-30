@@ -5,6 +5,8 @@ I made a small editor to create models from primitive shapes for lab work. You c
 
 Used OpenTK and WinForms. 
 
+<sub>* *In the future (maybe) I'll fix bugs of rotation and add it to other figures. I also need to add saving the result and loading it. 🧶* *</sub>
+
 # Screenshots
 Interface:
 
